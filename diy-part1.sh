@@ -22,3 +22,6 @@ cd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge
+#wifi
+cd package/kernel/
+git clone https://github.com/lwfinger/rtl8723bu.git -b v4.3.16
